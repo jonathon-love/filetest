@@ -1,0 +1,9 @@
+---
+name: showFile
+title: Show File
+jrs: '1.1'
+
+items:
+    - name: content
+      title: Content
+      type: Preformatted

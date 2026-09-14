@@ -1,0 +1,22 @@
+---
+title: File Option Test
+name: filetest
+version: 0.1.0
+jms: '1.0'
+authors:
+  - jamovi
+maintainer: jamovi <dev@jamovi.org>
+date: '2026-09-13'
+type: R
+description: A toy module for exercising the 'File' option type.
+analyses:
+  - title: Show File
+    name: showFile
+    ns: filetest
+    menuGroup: filetest
+    menuTitle: Show File
+    category: analyses
+usesNative: true
+minApp: 1.0.8
+
+...

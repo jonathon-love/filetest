@@ -1,0 +1,20 @@
+---
+name: showFile
+title: Show File
+menuGroup: filetest
+version: '1.0.0'
+jas: '1.2'
+
+options:
+    - name: data
+      type: Data
+
+    - name: file
+      title: File
+      type: File
+      extensions: [txt, csv, md]
+
+    - name: files
+      title: More files
+      type: File
+      multiple: true
